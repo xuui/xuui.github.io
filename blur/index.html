@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no">
+<title>CSS 3.0 Blur Header</title>
+<style>
+html,body{width:100%;height:100%;}
+body{margin:0;padding:0;text-align:center;font-size:14px;line-height:1;height:100%;}
+#main{margin:0 auto;position:relative;text-align:center;width:100%;height:100%;}
+#header{position:fixed;z-index:1;left:0;top:0;right:0;z-index:2;overflow:hidden;width:100%;height:64px;background-color:#fff;box-shadow:0 1px 0 rgba(0,0,0,.34),0 1px 5px rgba(0,0,0,.34);}
+#header{pointer-events:none}
+#header .toolbar{position:absolute;z-index:1;width:100%;height:100%;font-size:24px;color:#000;text-shadow:0 1px 5px 5px rgba(255,255,255,.9);line-height:64px;font-weight:300;}
+#header .cloneContent{position:absolute;left:0;width:100%;opacity:0.5;-webkit-filter:blur(9px);filter:blur(9px);-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+#content{width:100%;text-align:center}
+::-webkit-scrollbar{visibility:hidden}
+</style>
+</head>
+<body>
+<section id="main">
+  <header id="header">
+    <div class="toolbar">Header blur V!</div>
+  </header>
+  <div id="content" class="content">
+    <img src="blur.jpg" width="100%">
+    <img src="blur.jpg" width="100%">
+  </div>
+</section>
+
+<!-- jQuery (JavaScript plugins) -->
+<script src="https://cdn.xuui.net/js/jquery/jquery.min.js"></script>
+<script>
+(function(){(function(jQuery){$=jQuery.noConflict();
+var $window=$(window),$document=$(document);
+$document.ready(function(){
+  // Handler for .ready() called.
+  $('#header').append('<div class="cloneContent"></div>');
+  $('#content *').clone().appendTo('#header .cloneContent').text();
+});
+$window.scroll(function(){
+  $('#header .cloneContent').css('transform',function(index){
+	return 'translate3d(0,-'+$('#content').scrollTop()+'px,0)';
+  });
+  $('#header .cloneContent').css('-webkit-transform',function(index){
+	return 'translate3d(0,-'+$document.scrollTop()+'px,0)';
+  });
+});
+})(jQuery);})();
+/*
+var content=document.querySelector('#content');
+var header=document.querySelector('#header');
+var cloneNode=document.createElement('div');
+cloneNode.innerHTML=content.innerHTML;
+cloneNode.className="cloneContent";
+header.appendChild(cloneNode);
+content.addEventListener('scroll',function(){
+    //cloneNode.style.marginTop= -this.scrollTop + 'px';
+    cloneNode.style.top= -this.scrollTop + 'px';
+    cloneNode.style.transform='translate3d(0,-'+this.scrollTop+'px,0)';
+});
+*/
+</script>
+</body>
+</html>
