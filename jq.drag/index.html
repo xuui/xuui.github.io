@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no">
+<title>jQuery拖拽放大缩小插件idrag</title>
+<style type="text/css">
+body{background:#f2f2f2 url(../Modal/EifelNPBelgium_ZH-CN12131884508_1920x1080.jpg) no-repeat 0 0;}
+#box{box-sizing:border-box;width:200px;height:100px;cursor:move;position:absolute;top:30px;left:30px;background:transparent;border:1px solid rgba(0,0,0,.34);box-shadow:0 5px 15px rgba(0,0,0,.2);overflow:hidden;}
+#coor{width:10px;height:10px;overflow:hidden;cursor:se-resize;position:absolute;right:0;bottom:0;background-color:#09C;}
+  
+.wbg{position:absolute;top:-30px;left:-30px;}
+  
+</style>
+</head>
+<body>
+  <div id="box">
+    <img class="wbg" ondragstart="return false" src="EifelNPBelgium_blur.jpg" alt="">
+    <div id="coor"></div>
+  </div>
+
+<script src="https://cdn.xuui.net/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="drag.js"></script>
+
+</body>
+</html> 
