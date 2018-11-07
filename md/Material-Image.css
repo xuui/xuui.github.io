@@ -1,0 +1,8 @@
+/* Material Image */
+.Image_make{
+  background:-webkit-linear-gradient(top,rgba(0,0,0,.34),rgba(0,0,0,.12) 30%,rgba(0,0,0,0));
+  background:-moz-linear-gradient(top,rgba(0,0,0,.34),rgba(0,0,0,.12) 30%,rgba(0,0,0,0));
+  background:linear-gradient(top,rgba(0,0,0,.34),rgba(0,0,0,.12) 30%,rgba(0,0,0,0));
+}
+
+/* Material Image End */

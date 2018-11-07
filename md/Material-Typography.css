@@ -1,0 +1,37 @@
+/* Material Typography */
+.Typeface{font-family:"Noto Sans CJK SC",Roboto;}
+.Display-4{font-size:112px;font-weight:300;letter-spacing:-0.04em;line-height:1em;}
+.Display-3{font-size:56px;font-weight:400;letter-spacing:-0.02em;line-height:1em;}
+.Display-2{font-size:45px;font-weight:400;letter-spacing:normal;line-height:1.0665em;}
+.Display-1{font-size:34px;font-weight:400;letter-spacing:normal;line-height:1.1765em;}
+.Headliine{font-size:24px;font-weight:400;letter-spacing:normal;line-height:1.333em;}
+.Title{font-size:20px;font-weight:500;letter-spacing:0.02em;line-height:1.6em;}
+.Subheading-2{font-size:16px;font-weight:400;letter-spacing:0.04em;line-height:1.75em;}
+.Subheading{font-size:15px;font-weight:400;letter-spacing:0.04em;line-height:1.6em;}
+.Body-2{font-size:14px;font-weight:500;letter-spacing:0.04em;line-height:1.714em;}
+.Body{font-size:14px;font-weight:400;letter-spacing:0.04em;line-height:1.428em;}
+.Caption{font-size:12px;font-weight:400;letter-spacing:0.08em;line-height:1.667em;}
+.Menu{font-size:14px;font-weight:500;letter-spacing:0.04em;line-height:2.572em;}
+.Button{font-size:14px;font-weight:500;letter-spacing:0.04em;line-height:2.572em;}
+@media screen and (min-width:768px){
+  .Subheading-2{font-size:15px;line-height:1.867em;}
+  .Subheading{font-size:15px;line-height:1.6em;}
+  .Body-2{font-size:13px;line-height:1.846em;}
+  .Body{font-size:13px;line-height:1.538em;}
+}
+
+html[lang^="zh"] .Title{font-size:21px;}
+html[lang^="zh"] .Subheading-2{font-size:17px;line-height:1.765em;}
+html[lang^="zh"] .Subheading{font-size:17px;line-height:1.529em;}
+html[lang^="zh"] .Body-2{font-size:15px;line-height:1.733em;}
+html[lang^="zh"] .Body{font-size:15px;line-height:1.533em;}
+html[lang^="zh"] .Caption{font-size:13px;line-height:1.769em;}
+html[lang^="zh"] .Button{font-size:15px;}
+@media screen and (min-width:768px){
+  html[lang^="zh"] .Subheading-2{font-size:16px;line-height:1.875em;}
+  html[lang^="zh"] .Subheading{font-size:16px;line-height:1.625em;}
+  html[lang^="zh"] .Body-2{font-size:14px;line-height:1.857em;}
+  html[lang^="zh"] .Body{font-size:14px;line-height:1.643em;}
+}
+/* Material Typography End */
+
