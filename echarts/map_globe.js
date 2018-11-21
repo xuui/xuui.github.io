@@ -90,8 +90,8 @@ $.getJSON('resources/data-1491887968120-rJODPy9ae.json', function(data) {
               enable: true
           },
           viewControl: {
-              autoRotate: true,
-              //autoRotate: false,
+              //autoRotate: true,
+              autoRotate: false,
               distance: 92,
               alpha:32,
               beta:194,
