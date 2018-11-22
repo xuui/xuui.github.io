@@ -49,7 +49,8 @@ $.getJSON('resources/data-1491887968120-rJODPy9ae.json', function(data) {
           opacity: 1
       },
       data: data
-  }, {
+  });
+  /*},{
       type: "lines3D",
       effect: { //是否显示尾迹特效，默认不显示。
           show: true,
@@ -67,6 +68,7 @@ $.getJSON('resources/data-1491887968120-rJODPy9ae.json', function(data) {
       blendMode: "lighter",
       data: airDatas
   });
+  */
   myChart.setOption({
       // backgroundColor:'#000',
       visualMap: {
@@ -92,7 +94,7 @@ $.getJSON('resources/data-1491887968120-rJODPy9ae.json', function(data) {
           viewControl: {
               //autoRotate: true,
               autoRotate: false,
-              distance: 92,
+              distance: 96,
               alpha:32,
               beta:194,
               //targetCoord: [106.50, 30.00]
