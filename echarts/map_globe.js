@@ -92,8 +92,9 @@ $.getJSON('resources/data-1491887968120-rJODPy9ae.json', function(data) {
               enable: true
           },
           viewControl: {
-              //autoRotate: true,
-              autoRotate: false,
+              autoRotate: true, autoRotateSpeed: 1.5,
+              //autoRotate: false,
+              panMouseButton: 'right',
               distance: 96,
               alpha:32,
               beta:194,
