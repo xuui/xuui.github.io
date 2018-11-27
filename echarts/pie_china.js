@@ -13,9 +13,9 @@ option={
   series:[{
     name:'访问来源',
     type:'pie',
-    radius:['50%', '70%'],
+    radius:['50%','70%'],
     avoidLabelOverlap:false,
-    label:{normal:{show:false,position:'center'},emphasis:{show:true,textStyle:{fontSize:'30',fontWeight:'bold'},borderWidth:10,}},
+    label:{normal:{show:false,position:'center'},emphasis:{show:true,textStyle:{fontSize:'21',fontWeight:'bold'},borderWidth:10,}},
     labelLine:{normal:{show:false}},
     data:[
       {value:335,name:'直接访问',itemStyle:{color:{image:pieimg0,repeat:'no-repeat'}}},
