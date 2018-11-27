@@ -17,6 +17,7 @@ option={
     avoidLabelOverlap:false,
     label:{normal:{show:false,position:'center'},emphasis:{show:true,textStyle:{fontSize:'21',fontWeight:'bold'},borderWidth:10,}},
     labelLine:{normal:{show:false}},
+    itemStyle:{borderColor:'#fff',borderWidth:1,},
     data:[
       {value:335,name:'直接访问',itemStyle:{color:{image:pieimg0,repeat:'no-repeat'}}},
       {value:310,name:'邮件营销',itemStyle:{color:{image:pieimg1,repeat:'no-repeat'}}},
