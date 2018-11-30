@@ -15,7 +15,10 @@ option={
     type:'pie',
     radius:['50%','70%'],
     avoidLabelOverlap:false,
-    label:{normal:{show:false,position:'center'},emphasis:{show:true,textStyle:{fontSize:'21',fontWeight:'bold'},borderWidth:10,}},
+    label:{
+      normal:{show:false,position:'center'},
+      emphasis:{show:true,textStyle:{fontSize:'21',fontWeight:'bold',fontFamily:'STXingkai, STKaiti, KaiTi, BiauKai,serif'},borderWidth:10,}
+    },
     labelLine:{normal:{show:false}},
     itemStyle:{borderColor:'#fff',borderWidth:1.5,},
     data:[
