@@ -65,6 +65,7 @@ font-family:"Microsoft YaHei","寰蒋闆呴粦",Helvetica;
 padding-top:1em;
 display:block;
 width:1em;
+text-shadow:0 0 1px rgb(0,0,0,.75);
 }
 #colors li a .pinyin,#colors li a .rgb{
 position:absolute;
