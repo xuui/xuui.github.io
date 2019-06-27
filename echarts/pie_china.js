@@ -33,9 +33,19 @@ option={
 // 使用刚指定的配置项和数据显示图表。
 myChart.setOption(option);
 var app={currentIndex:-1};
+/*
 setInterval(function(){
   var dataLen=option.series[0].data.length;
   myChart.dispatchAction({type:'downplay',seriesIndex:0,dataIndex:app.currentIndex});
   app.currentIndex=(app.currentIndex+1)%dataLen;
   myChart.dispatchAction({type:'highlight',seriesIndex:0,dataIndex:app.currentIndex});
 },1600);
+*/
+
+myChart.on('click',function(params){
+  console.log(params);
+  console.log(params.name +': ' +params.value);
+  if(params.name === '邮件营销'){
+    alert('点到了 邮件营销!');
+  }
+});
