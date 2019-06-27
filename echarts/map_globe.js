@@ -85,7 +85,7 @@ $.getJSON('resources/data-1491887968120-rJODPy9ae.json',function(data){
       postEffect:{enable:true},
       viewControl:{
         autoRotate:true,autoRotateSpeed:1.5,
-        //autoRotate:false,
+        autoRotate:false,
         panMouseButton:'right',
         distance:96,
         alpha:32,
