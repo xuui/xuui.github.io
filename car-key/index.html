@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no,viewport-fit=cover">
+<meta name="renderer" content="webkit">
+<title>吾泊停车</title>
+<link rel="stylesheet" href="css/weui.css?v=0.1.1" />
+<link rel="stylesheet" href="css/style.css?v=0.1.1" />
+<link rel="stylesheet" href="css/jquery-weui.css?v=0.1.1" />
+</head>
+<body class="">
+  <div class="container">
+    <div class="card findcp">
+      <!--_-->
+      <label for="inCarNum" class="inlabel">车牌号</label>
+      <div class="inputbox">
+        <input type="text" name="inCarNum" id="inCarNum" class="inCarNum" maxlength="8" placeholder="请输入车牌号" readonly>
+      </div>
+      <!-- -->
+      <label id="carNums" class="carNums">川D123451</label>
+      <div id="parking" class="parking">
+        <div class="weui-loadmore wbo-cardldmore">
+          <i class="weui-loading"></i>
+          <span class="weui-loadmore__tips">正在查询费用信息...</span>
+        </div>
+        <p class="oulabel"><span id="ptime"></span>停车费：</p>
+        <p id="price" class="price"></p>
+      </div>
+    </div>
+    <p>
+      <button type="button" id="pFind" class="weui-btn weui-btn_primary">提 交</button>
+      <button type="button" id="payCar" class="weui-btn weui-btn_primary" style="display:none">缴 费</button>
+      <button type="button" id="reset" class="weui-btn" style="display:none">返回</button>
+    </p>
+    <div class="weui-msg__extra-area">
+      <div class="weui-footer">
+        <p class="weui-footer__links"><a href="http://wbo.ie-colorful.com" class="weui-footer__link">琦彩科技</a></p>
+        <p class="weui-footer__text">Copyright © 2016-2018 琦彩科技</p>
+      </div>
+    </div>
+  </div>
+  
+<div id="wboKeyboard">
+  <div class="keytop">
+    <span>车牌输入</span>
+    <a href="javascript:;" class="close">×</a>
+  </div>
+  <div class="keyboard">
+    <div class="weui-flex"><a href="#" class="weui-flex__item btn">-</a></div>
+  </div>
+</div>
+
+<script src="./js/jquery.min.js?v=0.1.1"></script>
+<!--
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
+-->
+<script src="./js/jquery-weui.js?v=0.1.1"></script>
+<script src="./js/wbo.js?v=0.1.1"></script>
+<script src="./js/wbo.keyboard.js?v=0.1.1"></script>
+</body>
+</html>
