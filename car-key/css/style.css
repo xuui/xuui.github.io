@@ -103,7 +103,7 @@ font-size:17px;
 #wboKeyboard .keytop span{font-size:19px;margin-left:10px;}
 #wboKeyboard .close{float:right;display:block;width:32px;height:32px;margin:4px;line-height:32px;text-align:center;font-size:32px;font-weight:300;color:#ccc;}
 #wboKeyboard .weui-flex__item.fbox2{-webkit-box-flex:2;-webkit-flex:2;flex:2;}
-#wboKeyboard .btn{background-color:#fff;margin:2px;padding:6px 4px;border:1px solid #fff;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.09);font-size:16px;color:#424242;text-align: center;}
+#wboKeyboard .btn{background-color:#fff;margin:2px;padding:4px;border:1px solid #fff;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.09);font-size:16px;color:#424242;text-align: center;}
 #wboKeyboard .btn_line{border-color:#039be5;color:#039be5;}
 #wboKeyboard .btn_remove{color:#f44336;}
 #wboKeyboard .btn_primary{background-color:#039be5;border-color:#0289cc;color:#fff;}
