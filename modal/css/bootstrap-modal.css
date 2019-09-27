@@ -300,7 +300,6 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 @media(max-width:767px){
 .modal-dialog{margin:0;
 /*position:absolute;bottom:0;left:0;right:0;*/}
-
 .modal-content{border-radius:0;
 /*height:100%*/}
 
@@ -310,6 +309,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .modal.fade .modal-dialog{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);-ms-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);}
 .modal.in .modal-dialog{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
 */
+.Window .modal-dialog{border-radius:2px;}
 }
 
 
@@ -346,6 +346,7 @@ left:32px;
 margin:0;
 width:300px;
 height:160px;
+border-radius:2px;
 }
 .Window .modal-dialog:active{cursor:move;}
 .Window .modal-content{height:100%;}
