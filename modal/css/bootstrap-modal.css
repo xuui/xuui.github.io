@@ -275,9 +275,11 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000000;}
 .modal-backdrop.fade{opacity:0;filter:alpha(opacity=0);}
 .modal-backdrop.in{opacity:.34;filter:alpha(opacity=34);}
-.modal-header{padding:24px 24px 20px;line-height:32px;color:rgba(0,0,0,.87);font-size:20px;font-weight:300;}
-.modal-header .close{margin-top:-2px;font-size:24px;}
-.modal-title{margin:0;line-height:1.42857143;font-weight:400;}
+.modal-header{padding:24px 24px 20px;line-height:32px;color:rgba(0,0,0,.87);}
+.modal-header .close{overflow:hidden;opacity:1;width:32px;height:32px;font-size:24px;font-weight:300;}
+.modal-header .close:hover{background:#f3f2f1;}
+.modal-header .close span{display:block;margin-top:-8px;}
+.modal-title{margin:0;margin-right:32px;font-size:20px;font-weight:600;}
 .modal-body{position:relative;padding:0 24px 24px;color:rgba(0,0,0,.54);}
 .modal-form{padding:0 24px;}
 .modal-footer{padding:8px 8px 8px 24px;text-align:right;}
