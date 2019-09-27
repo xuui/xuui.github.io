@@ -309,6 +309,8 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .modal.fade .modal-dialog{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);-ms-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);}
 .modal.in .modal-dialog{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
 */
+.modal.fadeleft .modal-dialog,
+.modal.faderight .modal-dialog{width:80%;}
 .Window .modal-dialog{border-radius:2px;}
 }
 
