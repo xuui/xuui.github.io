@@ -347,6 +347,7 @@ margin:0;
 width:300px;
 height:160px;
 border-radius:2px;
+overflow:hidden;
 }
 .Window .modal-dialog:active{cursor:move;}
 .Window .modal-content{height:100%;}
