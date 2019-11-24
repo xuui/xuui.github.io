@@ -1,5 +1,5 @@
 void function(){
-  alert('water');
+  console.log('water');
 }();
 
 (function(){
