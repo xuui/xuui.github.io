@@ -72,7 +72,7 @@
     "backo2": "1.0.2",
     "component-bind": "1.0.0",
     "component-emitter": "1.2.0",
-    "debug": "2.2.0",
+    "debug": "4.1.1",
     "engine.io-client": "1.6.11",
     "has-binary": "0.1.7",
     "indexof": "0.0.1",
