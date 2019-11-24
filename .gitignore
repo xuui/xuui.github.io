@@ -1,0 +1,34 @@
+#Ignoring Files.
+*.cab
+*.msi
+*.msm
+*.msp
+*.log
+*.pid
+*.seed
+._*
+.apdisk
+.AppleDB
+.AppleDouble
+.AppleDesktop
+.DS_Store
+.grunt
+.LSOverride
+.lock-wscript
+.Spotlight-V100
+.Trashes
+Desktop.ini
+ehthumbs.db
+Icon
+pids
+Thumbs.db
+
+#Ignore Directory.
+$RECYCLE.BIN/
+node_modules
+logs
+lib-cov
+coverage
+build/Release
+Network Trash Folder
+Temporary Items

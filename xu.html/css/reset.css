@@ -1,0 +1,78 @@
+@charset"utf-8";
+/*
+Name: CSS Reset.
+version: 1.5
+Copyright (C) 2011  Xu.hel@Warpflare(xu@xuui.net).
+The CSS is released under BSD License.
+Licensed under the BSD License:
+http://creativecommons.org/licenses/BSD/
+*/
+
+/* Reset default browser CSS. */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{background:transparent;border:0;margin:0;padding:0;outline:0;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}/* HTML5 display-role reset for older browsers */
+body{line-height:1.5;}
+h1,h2,h3,h4,h5,h6{clear:both;font-weight:normal;}
+ol,ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+del{text-decoration:line-through;}
+fieldset,img{border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+:focus{outline:0;}
+:link,:visited,ins{text-decoration:none;}
+/* Reset default browser CSS. End */
+
+/* Base Tags. */
+h1,h2,h3,h4,h5,h6{display:block;font-weight:bold;line-height:1.5;margin:0 0 20px;}
+h1{font-size:2em;}
+h2{font-size:1.5em;}
+h3{font-size:1.17em;}
+h4{font-size:1em;}
+h5{font-size:0.83em;}
+h6{font-size:0.67em;}
+p{margin-bottom:18px;}
+ul,ol,menu{list-style:none outside none;}
+ul{list-style:square;margin:0 0 18px 1.5em;}
+ol{list-style:decimal;margin:0 0 18px 1.5em;}
+ol ol{list-style:upper-alpha;}
+ol ol ol{list-style:lower-roman;}
+ol ol ol ol{list-style:lower-alpha;}
+ul ul,ol ol,ul ol,ol ul{margin-bottom:0;}
+dl{margin:0 0 24px 0;}
+dt{font-weight:bold;}
+dd{margin-bottom:18px;}
+th,td{display:table-cell;vertical-align:inherit;}
+th{font-weight:bold;}
+td{text-align:inherit;}
+b,strong{font-weight:bold;}
+cite,em,i{font-style:italic;}
+var,dfn{font-style:italic;}
+small{font-size:smaller;}
+big{font-size:131.25%;}
+ins{text-decoration:none;}
+pre{line-height:18px;margin-bottom:18px;padding:1.5em;}
+abbr,acronym{border-bottom:1px dotted;cursor:help;font-variant:normal;}
+sup,sub{height:0;line-height:1;position:relative;}
+sup{bottom:1ex;}
+sub{top:.5ex;}
+blockquote{font-style:italic;padding:0 3em;}
+blockquote cite,blockquote em,blockquote i{font-style:normal;}
+img{vertical-align:middle;}
+input[type="text"],textarea{padding:2px;}
+input{vertical-align:middle;}
+textarea{resize:both;}
+hr{background:#e7e7e7;border:0;clear:both;height:1px;margin-bottom:18px;}
+
+/* Base Class */
+.clear{clear:both;}
+.clearer{clear:both;display:block;margin:0;padding:0;height:0;line-height:1px;font-size:1px;}
+
+/* Line break */
+div,p{white-space:normal;word-break:break-all;word-wrap:break-word;}
+table{table-layout:fixed;}
+table th,table td{word-wrap:break-word;overflow:hidden;}
+pre{white-space:pre-wrap;word-wrap:break-word;width:auto;}

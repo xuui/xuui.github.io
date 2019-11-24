@@ -1,0 +1,7 @@
+# Apache Directory 'AllowOverride All' configured to enable this document.
+# 301 Redirect to domain without 'www.'
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTP_HOST} ^www.xuui.net$ [NC]
+RewriteRule ^(.*)$ http://xuui.net/$1 [R=301,L]
+RewriteRule ^login$ ./wp-login.php [NC,L]
+</IfModule>
