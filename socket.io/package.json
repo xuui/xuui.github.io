@@ -85,7 +85,7 @@
   "devDependencies": {
     "base64-arraybuffer": "0.1.5",
     "browserify": "13.0.0",
-    "concat-stream": "1.5.1",
+    "concat-stream": "2.0.0",
     "derequire": "2.0.3",
     "expect.js": "0.3.1",
     "has-cors": "1.1.0",
